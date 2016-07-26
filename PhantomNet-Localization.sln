@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PhantomNet.Extensions.Localization", "src\PhantomNet.Extensions.Localization\PhantomNet.Extensions.Localization.xproj", "{7CD2BBDF-FE6D-4AA2-8B36-B02E9652E730}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aspnet", "aspnet", "{5FCE32EE-ED94-44CE-BEDE-C0DCE702F705}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PhantomNet.Extensions.Localization", "src\aspnet\PhantomNet.Extensions.Localization\PhantomNet.Extensions.Localization.xproj", "{7CD2BBDF-FE6D-4AA2-8B36-B02E9652E730}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{7CD2BBDF-FE6D-4AA2-8B36-B02E9652E730} = {D79ABDAA-0E3E-498C-9AB3-3575A8D2898F}
+		{5FCE32EE-ED94-44CE-BEDE-C0DCE702F705} = {D79ABDAA-0E3E-498C-9AB3-3575A8D2898F}
+		{7CD2BBDF-FE6D-4AA2-8B36-B02E9652E730} = {5FCE32EE-ED94-44CE-BEDE-C0DCE702F705}
 	EndGlobalSection
 EndGlobal
