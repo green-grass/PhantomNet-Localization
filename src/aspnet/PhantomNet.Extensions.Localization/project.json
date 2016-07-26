@@ -1,5 +1,15 @@
 {
+  "title": "PhantomNet.Extensions.Localization",
+  "copyright": "Green Grass",
+  "description": "PhantomNet.Extensions.Localization class library",
+  "language": "en",
   "version": "1.0.0-beta-*",
+  "authors": [ "Minh Nguyen" ],
+
+  "packOptions": {
+    "licenseUrl": "https://github.com/green-grass/PhantomNet-Localization/blob/master/LICENSE",
+    "projectUrl": "https://github.com/green-grass/PhantomNet-Localization"
+  },
 
   "dependencies": {
     "Microsoft.AspNetCore.Localization": "1.0.0",
