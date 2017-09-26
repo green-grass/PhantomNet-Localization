@@ -1,20 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D79ABDAA-0E3E-498C-9AB3-3575A8D2898F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{22599FE2-C31B-48CB-9813-267CD5AE0441}"
 	ProjectSection(SolutionItems) = preProject
+		..\PhantomNet-Searching\appveyor.yml = ..\PhantomNet-Searching\appveyor.yml
 		Build.ps1 = Build.ps1
-		global.json = global.json
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aspnet", "aspnet", "{5FCE32EE-ED94-44CE-BEDE-C0DCE702F705}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PhantomNet.Extensions.Localization", "src\aspnet\PhantomNet.Extensions.Localization\PhantomNet.Extensions.Localization.xproj", "{7CD2BBDF-FE6D-4AA2-8B36-B02E9652E730}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhantomNet.Extensions.Localization", "src\aspnet\PhantomNet.Extensions.Localization\PhantomNet.Extensions.Localization.csproj", "{7CD2BBDF-FE6D-4AA2-8B36-B02E9652E730}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,5 +33,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5FCE32EE-ED94-44CE-BEDE-C0DCE702F705} = {D79ABDAA-0E3E-498C-9AB3-3575A8D2898F}
 		{7CD2BBDF-FE6D-4AA2-8B36-B02E9652E730} = {5FCE32EE-ED94-44CE-BEDE-C0DCE702F705}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F26591FE-6DBE-42ED-A0EA-5AE60620D310}
 	EndGlobalSection
 EndGlobal
